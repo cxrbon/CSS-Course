@@ -1,0 +1,6 @@
+p {
+    font-size: 40px;
+    color: aquamarine;
+}
+
+/* In CSS the color: is the property and the aquamarine is the value. Both (the property and the value) together are classed as a Declaration, and the whole thing from p is defined as a ruleset/rule!*/

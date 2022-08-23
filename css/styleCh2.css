@@ -1,0 +1,33 @@
+body {
+    font-size: 22px;
+}
+
+#second {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p {
+    color: purple;
+
+}
+
+h1, h2 {
+    color: blueviolet
+}
+
+.gray {
+    color: brown;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color:yellow;
+}
+
+
+
+/*CSS works an specifity index, the rules that apply to a peice of code is dependant on the level of specifity of that code, i.e  id -> class -> rule */
