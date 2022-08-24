@@ -1,16 +1,29 @@
-<h1>I am learning about CSS in this course:</h1>
+body {
+  background-color: papayawhip;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+}
 
-<h2>Lesson 1</h2>
-<p>In CSS the color: is the property and the aquamarine is the value. Both (the property and the value) together are classed as a Declaration, and the whole thing from p is defined as a ruleset/rule!</p>
+p {
+  color: #333;
+}
 
-<h2>Lesson 2</h2>
-<p>CSS works an specifity index, the rules that apply to a peice of code is dependant on the level of specifity of that code, i.e  id -> class -> rule</p>
-classes are create by adding.{classname}.
-id's are created by adding#{idname}.
-
+/* 
 <h2>Ch3: Colours in CSS</h2>
 
 <p>rgb: allows to set specific colours aside from the ones that already given. 255 is max value for each place holder, i.e, rgb(255,0,0) is red.</p>
+
+<br>
+
 <p>rgba scale: a (alpha channel) in this sets the trasnparency in the 4th placeholder. It goes from 0-1, 0 being fully transparent and 1 being fully opaque and 0.5 being 50% opacity.</p> 
+
+<br>
+
 <p> Hexadecimal color: using a scale of 0-9 and A-F, 0 being absence of colour and f being brightest value of that colour.</p>
+
+<br>
+
 coolors.coo ==> a good website to get color palettes and check contrast between diferent colors
+*/
