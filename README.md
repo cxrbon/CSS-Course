@@ -52,3 +52,11 @@ id's are created by adding#{idname}.</p>
 <p>a:focus allows user to tab throught th page with keyboard and see which link is being focused at. Increasing accesibility.</p>
 
 <p>Using the HSL colours you can change the setting minutely to stick within the colour schem of anchor tags. Alternatively you can sue opacity to differetiate.</p>
+
+Ch8: CSS List Styles</h2>
+
+<p>List style type - changes the thing used to order lists. You can add attributes to HTML code ("<ol> start = "3" reversed") this would start the bullet point from 3 and also reverse the order of the counting.</p>
+
+<p>List tyle: attributes can be clustered, such as image, shape and position</p>
+ 
+<p>Pseudoclass (n'th child()) is used to change the properties of a specific item on a list. so an nth-child(2) color:red would make the second item on the list red. This pseudo class only applies when styling li tag. Also in the you can add odd or even to the nth class so the property only effects the odd or even number items on the list.</p>

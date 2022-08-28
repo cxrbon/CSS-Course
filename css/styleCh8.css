@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  padding: 5%;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+ol {
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+ul {
+  list-style: square;
+  list-style-position: inside;
+  text-align: center;
+  color: darkcyan;
+  /* list-style-image: url('../img/checkmark.png');
+  list-style: square url('../img/checkmark.png') inside;
+*/
+}
+
+ul li:nth-child(2) {
+  color: crimson;
+}
+ul ::marker {
+  color: blueviolet;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Only £5 >>  ";
+}
+
+/* 
+<h2>Ch8: CSS List Styles</h2>
+
+<p>List style type - changes the thing used to order lists. You can add attributes to HTML code ("<ol> start = "3" reversed") this would start the bullet point from 3 and also reverse the order of the counting.</p>
+
+<p>List tyle: attributes can be clustered, such as image, shape and position</p>
+ 
+<p>Pseudoclass (n'th child()) is used to change the properties of a specific item on a list. so an nth-child(2) color:red would make the second item on the list red. This pseudo class only applies when styling li tag. Also in the you can add odd or even to the nth class so the property only effects the odd or even number items on the list.</p>
+
+<p></p>
+
+*/
