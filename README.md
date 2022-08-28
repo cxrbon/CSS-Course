@@ -53,9 +53,9 @@ id's are created by adding#{idname}.</p>
 
 <p>Using the HSL colours you can change the setting minutely to stick within the colour schem of anchor tags. Alternatively you can sue opacity to differetiate.</p>
 
-Ch8: CSS List Styles</h2>
+<h2>Ch8: CSS List Styles</h2>
 
-<p>List style type - changes the thing used to order lists. You can add attributes to HTML code ("<ol> start = "3" reversed") this would start the bullet point from 3 and also reverse the order of the counting.</p>
+<p>List style type - changes the thing used to order lists. You can add attributes to HTML code ("<ol> start = '3' reversed") this would start the bullet point from 3 and also reverse the order of the counting.</p>
 
 <p>List tyle: attributes can be clustered, such as image, shape and position</p>
  
