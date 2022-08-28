@@ -24,3 +24,21 @@ id's are created by adding#{idname}.</p>
 <p>Rem : its also a relative unit, it applies a multiple of the root element (usually the HTML tag) to whatever it's defining (usually font size). So if the root element has a standard font size of 16px, applying a 2rem to h1 will make it 32px.</p>
 
 <p>Viewport height and width: used to scale items according the size of the window current window. 100% scales content automatically to the full width the open window.</p>
+
+<h2>Ch5: CSS Box Model</h2>
+
+<p>Border box includes content, padding and border when setting widths etc.</p>
+
+<p>In the CSS box model, it content -> padding -> border -> margin.</p>
+ 
+<p>margin, border, padding all of this can be set as value for all the sides or you can set specific value for each side in the code.</p>
+
+<p>margin auto, wil center an element within its container horizontally.</p>
+
+<h2>Ch6: CSS Typography</h2>
+
+<p>Typography is the way that text is arranged and represented.</p>
+
+<p>Form elements, such as the input and button, Don Not inherit the properties assigned to the body element. In order to make them inherit you have to state specificaly by adding this (input, button {font: inherit}) to the code.</p>
+ 
+<p>New fonts can be imported from (https://fonts.google.com/) and by using the @import code given paste it at the top of the CSS file. and add the font family aswell.</p>

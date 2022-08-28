@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: rgb(163, 1, 1) 10px double;
+  font-size: 1.5rem;
+  margin: 1.5em;
+  padding: 1em;
+  outline: 5px solid purple;
+  outline-offset: 5px;
+}
+
+/* 
+<h2>Ch5: CSS Box Model</h2>
+
+<p>Border box includes content, padding and border when setting widths etc.</p>
+
+<p>In the CSS box model, it content -> padding -> border -> margin.</p>
+ 
+<p>margin, border, padding all of this can be set as value for all the sides or you can set specific value for each side in the code.</p>
+
+<p>margin auto, wil center an element within its container horizontally.</p>
+*/

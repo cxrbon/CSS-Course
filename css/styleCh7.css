@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  padding: 5%;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(180, 100%, 29%);
+}
+a:visited {
+  color: darkred;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+  color: hsl(180, 100%, 29%, 0.8);
+}
+a:active {
+  color: crimson;
+}
+
+
+
+
+
+
+/* 
+<h2>Ch7: CSS Styling Links</h2>
+
+<p> the visited, hover and active are pseudo classes of the anchor element. Thus, they have more specifity and can ovrride the styling of the normal anchor tag.</p>
+
+<p>If assigning different styling to the visited -> hover -> active, it's best to writed the code in this order, otherwise the styling may not function correctly.</p>
+ 
+<p>a:focus allows user to tab throught th page with keyboard and see which link is being focused at. Increasing accesibility.</p>
+
+<p>Using the HSL colours you can change the setting minutely to stick within the colour schem of anchor tags. Alternatively you can sue opacity to differetiate.</p>
+
+*/
