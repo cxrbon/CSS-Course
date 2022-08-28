@@ -1,4 +1,4 @@
-<h1>I am learning about CSS in this course:</h1>
+<h1>CSS Course Notes:</h1>
 
 <h2>Lesson 1</h2>
 <p>In CSS the color: is the property and the aquamarine is the value. Both (the property and the value) together are classed as a Declaration, and the whole thing from p is defined as a ruleset/rule!</p>
@@ -42,3 +42,13 @@ id's are created by adding#{idname}.</p>
 <p>Form elements, such as the input and button, Don Not inherit the properties assigned to the body element. In order to make them inherit you have to state specificaly by adding this (input, button {font: inherit}) to the code.</p>
  
 <p>New fonts can be imported from (https://fonts.google.com/) and by using the @import code given paste it at the top of the CSS file. and add the font family aswell.</p>
+
+<h2>Ch7: CSS Styling Links</h2>
+
+<p> the visited, hover and active are pseudo classes of the anchor element. Thus, they have more specifity and can ovrride the styling of the normal anchor tag.</p>
+
+<p>If assigning different styling to the visited -> hover -> active, it's best to writed the code in this order, otherwise the styling may not function correctly.</p>
+ 
+<p>a:focus allows user to tab throught th page with keyboard and see which link is being focused at. Increasing accesibility.</p>
+
+<p>Using the HSL colours you can change the setting minutely to stick within the colour schem of anchor tags. Alternatively you can sue opacity to differetiate.</p>
