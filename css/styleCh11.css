@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.block {
+  height: 30vw;
+  width: 30vw;
+  background-color: black;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+.clear {
+  clear: both;
+}
+
+section {
+  background-color: bisque;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flow-root;
+}
+/* 
+<h2>Ch11: CSS Floats</h2>
+
+<p>Floats allows text to wrap around an element.</p>
+<p>Overflow:auto allows for the container like section to encompass the full-size of floats. However current way to do its is display: flow-roots </p>
+<p>clear class with clear both is required if you dont want a float to affect another paragraph and stay within a container.</p>
+*/

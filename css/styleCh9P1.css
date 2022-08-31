@@ -13,6 +13,7 @@ body {
 }
 
 nav {
+  background-color: rgb(235, 235, 235);
   border: 1px black solid;
   border-radius: 50px;
   margin: 0 auto 1rem;
@@ -84,7 +85,7 @@ li a:hover {
 
 li a:active {
   color: crimson;
-  border: crimson 1px dotted;
+  border: crimson 2px dotted;
 }
 /* 
 <h2>Ch9: Mini Project</h2>

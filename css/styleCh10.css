@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  padding: 2%;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  background-color: aquamarine;
+}
+
+.opposite {
+  display: inline-block;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 4rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0.5rem;
+  text-align: right;
+  margin: 0%;
+  background-color: #333;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+li a:visited,
+li a:hover {
+  text-decoration: underline;
+}
+
+li a:active {
+  color: crimson;
+}
+
+/* 
+<h2>Ch10: CSS Dsiplays</h2>
+
+<p>Paragraphs and others are block level elements. They have by default 100% width available (i.e the width of their parents element). </p>
+<p>In-line elements donlt stack. Margins, height and some other properties cannot be applied to iniline elements.</p>
+<p>Display property: inline-block encompasses the in-line element within its parent block element, making it respect the boundaries of the parent element while letting you apply properties. </p>
+<p></p>
+<p></p>
+<p></p>
+
+*/

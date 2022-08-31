@@ -55,8 +55,26 @@ id's are created by adding#{idname}.</p>
 
 <h2>Ch8: CSS List Styles</h2>
 
-<p>List style type - changes the thing used to order lists. You can add attributes to HTML code ("<ol> start = '3' reversed") this would start the bullet point from 3 and also reverse the order of the counting.</p>
+<p>List style type - changes the thing used to order lists. You can add attributes to HTML code (start = '3' reversed") this would start the bullet point from 3 and also reverse the order of the counting.</p>
 
 <p>List tyle: attributes can be clustered, such as image, shape and position</p>
  
 <p>Pseudoclass (n'th child()) is used to change the properties of a specific item on a list. so an nth-child(2) color:red would make the second item on the list red. This pseudo class only applies when styling li tag. Also in the you can add odd or even to the nth class so the property only effects the odd or even number items on the list.</p>
+
+<h2>Ch9: CSS Styles</h2>
+
+<p>Paragraphs and others are block level elements. They have by default 100% width available (i.e the width of their parents element). </p>
+<p>In-line elements donlt stack. Margins, height and some other properties cannot be applied to iniline elements.</p>
+<p>Display property: inline-block encompasses the in-line element within its parent block element, making it respect the boundaries of the parent element while letting you apply properties. </p>
+
+<h2>Ch10: CSS Dsiplays</h2>
+
+<p>Paragraphs and others are block level elements. They have by default 100% width available (i.e the width of their parents element). </p>
+<p>In-line elements donlt stack. Margins, height and some other properties cannot be applied to iniline elements.</p>
+<p>Display property: inline-block encompasses the in-line element within its parent block element, making it respect the boundaries of the parent element while letting you apply properties. </p>
+
+<h2>Ch11: CSS Floats</h2>
+
+<p>Floats allows text to wrap around an element.</p>
+<p>Overflow:auto allows for the container like section to encompass the full-size of floats. However current way to do its is display: flow-roots </p>
+<p>clear class with clear both is required if you dont want a float to affect another paragraph and stay within a container.</p>
