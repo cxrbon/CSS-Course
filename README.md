@@ -78,3 +78,11 @@ id's are created by adding#{idname}.</p>
 <p>Floats allows text to wrap around an element.</p>
 <p>Overflow:auto allows for the container like section to encompass the full-size of floats. However current way to do its is display: flow-roots </p>
 <p>clear class with clear both is required if you dont want a float to affect another paragraph and stay within a container.</p>
+
+<h2>Ch12: CSS Columns</h2>
+
+<p>The column-rule funtions allows the add a line between columns to seperate them</p>
+<p>Usually in the column setting, the first paragraph has top margin, to get rid of that you have to manually set margin-top to 0. Be specific to set this attrbute to only column paragraphs else, it will affect all other paragraphs as well. </p>
+<p>The break-inside:avoid function allows for the text to not be split in the middle when using columns.</p>
+<p>The column-span:all function allows for a paragraph to span multiple columns.</p>
+<p>When the attribute white-space:nowrap is applied to class in the span element, it ensures that the content in the span element does not get split or broken when the window size is changed. </p>

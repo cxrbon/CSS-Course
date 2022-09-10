@@ -3,11 +3,14 @@
 body {
   font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
+  margin:auto;
+  padding : 1rem;
+  max-width: 800px;
 }
 
 .block {
-  height: 30vw;
-  width: 30vw;
+  height: 300px;
+  width: 300px;
   background-color: black;
   color: whitesmoke;
   padding: 1rem;
@@ -33,10 +36,18 @@ section {
   padding: 1rem;
   display: flow-root;
 }
+hr {
+  color: #333;
+  border: double 1px;
+  width: 400px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-style : groove;
+}
 /* 
 <h2>Ch11: CSS Floats</h2>
 
 <p>Floats allows text to wrap around an element.</p>
-<p>Overflow:auto allows for the container like section to encompass the full-size of floats. However current way to do its is display: flow-roots </p>
+<p>Overflow:auto allows for the container like section to encompass the full-size of floats. However current way to do its is display: display:flow-roots </p>
 <p>clear class with clear both is required if you dont want a float to affect another paragraph and stay within a container.</p>
 */
