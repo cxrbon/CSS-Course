@@ -86,3 +86,4 @@ id's are created by adding#{idname}.</p>
 <p>The break-inside:avoid function allows for the text to not be split in the middle when using columns.</p>
 <p>The column-span:all function allows for a paragraph to span multiple columns.</p>
 <p>When the attribute white-space:nowrap is applied to class in the span element, it ensures that the content in the span element does not get split or broken when the window size is changed. </p>
+<p>(https://unicode-table.com/) a good website to get HTML codes for various unicode elements.</p>
